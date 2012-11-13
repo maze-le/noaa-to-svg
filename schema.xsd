@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Mit XMLSpy v2012 (http://www.altova.com) von Rein (student) bearbeitet -->
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.test.de" targetNamespace="http://www.test.de" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xsd:element name="weatherdata" type="weatherdata_type"/>
 	
