@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     id="barrowsvg0.1"
+     version="1.1"
+     width="700"
+     height="256">
+   <defs id="defines_barrowsvg0.1"/>
+   <svg:path style="fill:#fafaff;"
+             d="M 0.0,0.0 L 700.0,0.0 700.0,256.0 0.0,256.0 Z"
+             id="bg"/>
+   <svg:path style="fill:#eaeafc;"
+             d="M 50,12 L 685,12 685,246 50,246 Z"
+             id="bg2"/>
+   <svg:path style="fill:#0d0d0d;stroke:#0d0d0d;"
+             d="M 50,246.0 L 50,12"
+             id="coordypos"/>
+   <svg:path style="fill:#0d0d0d;stroke:#0d0d0d;"
+             d="M 50,7 L 55,14 50,12 45,14 Z"
+             id="arrowypos"/>
+   <svg:path style="fill:#0d0d0d;stroke:#0d0d0d;"
+             d="M 50,246.0 L 50,246"
+             id="coordyneg"/>
+   <svg:path style="fill:#0d0d0d;stroke:#0d0d0d;"
+             d="M 50,241 L 55,248 50,246 45,248 Z"
+             transform="rotate(180 50 246)"
+             id="arrowyneg"/>
+   <svg:path style="fill:#0d0d0d;stroke:#0d0d0d;"
+             d="M 50,246.0 L 685,246.0"
+             id="coordxpos"/>
+   <svg:path style="fill:#0d0d0d;stroke:#0d0d0d;"
+             d="M 685,241 L 690,248 685,246.0 680,248 Z"
+             transform="rotate(90 685,246.0)"
+             id="arrowxpos"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="77"
+             y="256">3.03.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 90,246 L 90,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="117"
+             y="256">5.03.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 130,246 L 130,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="157"
+             y="256">7.03.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 170,246 L 170,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="197"
+             y="256">9.03.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 210,246 L 210,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="237"
+             y="256">11.03.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 250,246 L 250,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="277"
+             y="256">13.03.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 290,246 L 290,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="317"
+             y="256">15.03.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 330,246 L 330,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="357"
+             y="256">17.03.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 370,246 L 370,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="397"
+             y="256">19.03.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 410,246 L 410,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="437"
+             y="256">21.03.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 450,246 L 450,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="477"
+             y="256">23.03.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 490,246 L 490,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="517"
+             y="256">25.03.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 530,246 L 530,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="557"
+             y="256">27.03.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 570,246 L 570,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="597"
+             y="256">29.03.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 610,246 L 610,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="637"
+             y="256">31.03.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 650,246 L 650,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="5"
+             y="246.0">0 W/m<svg:tspan style="margin-top:.25em;font-size: .85em;baseline-shift: super;">2</svg:tspan>
+   </svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 45,246.0 L 685,246.0"/>
+   <svg:text style="font-size:7.5pt;font-face: monospace, Courier;font-color:#000000;"
+             x="5"
+             y="206">80W/m<svg:tspan style="font-size: .75em;baseline-shift: super;">2</svg:tspan>
+   </svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 45,206 L 685,206"/>
+   <svg:text style="font-size:7.5pt;font-face: monospace, Courier;font-color:#000000;"
+             x="5"
+             y="166">160W/m<svg:tspan style="font-size: .75em;baseline-shift: super;">2</svg:tspan>
+   </svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 45,166 L 685,166"/>
+   <svg:text style="font-size:7.5pt;font-face: monospace, Courier;font-color:#000000;"
+             x="5"
+             y="126">240W/m<svg:tspan style="font-size: .75em;baseline-shift: super;">2</svg:tspan>
+   </svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 45,126 L 685,126"/>
+   <svg:text style="font-size:7.5pt;font-face: monospace, Courier;font-color:#000000;"
+             x="5"
+             y="86">320W/m<svg:tspan style="font-size: .75em;baseline-shift: super;">2</svg:tspan>
+   </svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 45,86 L 685,86"/>
+   <svg:text style="font-size:7.5pt;font-face: monospace, Courier;font-color:#000000;"
+             x="5"
+             y="46">400W/m<svg:tspan style="font-size: .75em;baseline-shift: super;">2</svg:tspan>
+   </svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 45,46 L 685,46"/>
+   <svg:path style="stroke:#fc7c0a;fill:none;"
+             d="M 50,233.64583333333334  L 50,233.64583333333334 L 70,238.29166666666666 L 90,227.9375 L 110,226.02083333333334 L 130,228.9375 L 150,232.0625 L 170,224.66666666666666 L 190,217.97916666666666 L 210,215.5625 L 230,221.04166666666666 L 250,214.16666666666666 L 270,212.89583333333334 L 290,202.35416666666666 L 310,202.77083333333334 L 330,209.35416666666666 L 350,207.97916666666666 L 370,205.33333333333334 L 390,207.89583333333334 L 410,200.45833333333334 L 430,204.16666666666666 L 450,209.27083333333334 L 470,198.16666666666666 L 490,208.66666666666666 L 510,203.375 L 530,209.27083333333334 L 550,206.64583333333334 L 570,195.54166666666666 L 590,207 L 610,186.125 L 630,193.125 L 650,185.64583333333334"
+             id="curveTempCurrent"/>
+</svg>

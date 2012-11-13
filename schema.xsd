@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mit XMLSpy v2012 (http://www.altova.com) von Rein (student) bearbeitet -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.test.de" targetNamespace="http://www.test.de" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:element name="weatherdata" type="weatherdata_type"/>
+	
+	<xsd:complexType name="weatherdata_type">
+		<xsd:sequence>
+			<xsd:element name="station" type="station_type"/>
+			<xsd:element name="data" type="data_type"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:complexType name="station_type">
+		<xsd:sequence>
+			<xsd:element name="wban" type="xsd:integer"/>
+			<xsd:element name="longitude" type="xsd:decimal"/>
+			<xsd:element name="latitude" type="xsd:decimal"/>
+			<xsd:element name="startdate_utc" type="xsd:integer"/>
+			<xsd:element name="starttime_utc" type="xsd:integer"/>
+			<xsd:element name="enddate_utc" type="xsd:integer"/>
+			<xsd:element name="endtime_utc" type="xsd:integer"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:complexType name="data_type">
+		<xsd:sequence>
+			<xsd:element name="row" type="row_type" minOccurs="8760" maxOccurs="8786"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:complexType name="row_type">
+		<xsd:sequence>
+			<xsd:element name="directSensorData" type="directSensorData_type"/>
+			<xsd:element name="sensorArrayData" type="sensorArrayData_type"/>			
+			<xsd:element name="utc" type="utc_type"/>
+			<xsd:element name="sw" type="sw_type"/>
+		</xsd:sequence>
+		<xsd:attribute name="localdate" type="xsd:integer" use="required"/>
+		<xsd:attribute name="localtime" type="xsd:integer" use="required"/>
+		<xsd:attribute name="id" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="utc_type">
+		<xsd:attribute name="utctime" type="xsd:integer" use="required"/>
+		<xsd:attribute name="utcdate" type="xsd:integer" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="sw_type">
+		<xsd:attribute name="version" use="required">
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string">
+					<xsd:maxLength value="6"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+		</xsd:attribute>
+	</xsd:complexType>
+	<xsd:complexType name="directSensorData_type">
+		<xsd:sequence>
+			<xsd:element name="tempCurrent" type="directSensorDataValue_type"/>
+			<xsd:element name="tempAvg" type="directSensorDataValue_type"/>
+			<xsd:element name="tempMin" type="directSensorDataValue_type"/>
+			<xsd:element name="tempMax" type="directSensorDataValue_type"/>
+			<xsd:element name="precipitation" type="directSensorDataValue_type"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="sensorArrayData_type">
+		<xsd:sequence>
+			<xsd:element name="solarRadAvg" type="sensorArrayDataValue_type"/>
+			<xsd:element name="solarRadMax" type="sensorArrayDataValue_type"/>
+			<xsd:element name="solarRadMin" type="sensorArrayDataValue_type"/>
+			<xsd:element name="surfaceTempAvg" type="sensorArrayDataValue_type"/>
+			<xsd:element name="surfaceTempMax" type="sensorArrayDataValue_type"/>
+			<xsd:element name="surfaceTempMin" type="sensorArrayDataValue_type"/>
+			<xsd:element name="rhAvg" type="sensorArrayDataValue_type"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="directSensorDataValue_type">
+		<xsd:attribute name="value" type="xsd:decimal" use="required"/>
+		<xsd:attribute name="error" type="xsd:integer" use="optional"/>
+	</xsd:complexType>
+	<xsd:complexType name="sensorArrayDataValue_type">
+		<xsd:attribute name="value" type="xsd:decimal" use="required"/>
+		<xsd:attribute name="error" type="xsd:integer" use="optional"/>
+		<xsd:attribute name="qcflag" type="xsd:integer" use="required"/>
+	</xsd:complexType>
+</xsd:schema>

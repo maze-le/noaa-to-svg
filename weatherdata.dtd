@@ -1,0 +1,145 @@
+<!ELEMENT weatherdata (station, data)>
+<!ELEMENT station (wban, longitude, latitude, startdate_utc, starttime_utc, enddate_utc, endtime_utc)>
+<!ELEMENT wban (#PCDATA)>
+<!ELEMENT longitude (#PCDATA)>
+<!ELEMENT latitude (#PCDATA)>
+<!ELEMENT startdate_utc (#PCDATA)>
+<!ELEMENT starttime_utc (#PCDATA)>
+<!ELEMENT enddate_utc (#PCDATA)>
+<!ELEMENT endtime_utc (#PCDATA)>
+<!ELEMENT data (row*)>
+<!ELEMENT row (directSensorData, sensorArrayData, utc, sw)>
+<!ATTLIST row
+	  localdate CDATA #REQUIRED
+	  localtime CDATA #REQUIRED
+	  id ID #IMPLIED
+>
+<!ELEMENT sw EMPTY>
+<!ATTLIST sw
+	  version CDATA #REQUIRED
+>
+<!ELEMENT utc EMPTY>
+<!ATTLIST utc
+	  utctime CDATA #REQUIRED
+	  utcdate CDATA #REQUIRED
+>
+<!ELEMENT directSensorData (tempCurrent, tempAvg, tempMin, tempMax, precipitation)>
+<!ELEMENT tempCurrent EMPTY>
+<!ATTLIST tempCurrent
+	  value CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT tempAvg EMPTY>
+<!ATTLIST tempAvg
+	  value CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT tempMin EMPTY>
+<!ATTLIST tempMin
+	  value CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT tempMax EMPTY>
+<!ATTLIST tempMax
+	  value CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+
+<!ELEMENT precipitation EMPTY>
+<!ATTLIST precipitation
+	  value CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT sensorArrayData (solarRadAvg, solarRadMax, solarRadMin, surfaceTempAvg, surfaceTempMax, surfaceTempMin, rhAvg)>
+<!ELEMENT solarRadAvg EMPTY>
+<!ATTLIST solarRadAvg
+	  value CDATA #REQUIRED
+	  qcflag CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT solarRadMax EMPTY>
+<!ATTLIST solarRadMax
+	  value CDATA #REQUIRED
+	  qcflag CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT solarRadMin EMPTY>
+<!ATTLIST solarRadMin
+	  value CDATA #REQUIRED
+	  qcflag CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT surfaceTempAvg EMPTY>
+<!ATTLIST surfaceTempAvg
+	  value CDATA #REQUIRED
+	  qcflag CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT surfaceTempMax EMPTY>
+<!ATTLIST surfaceTempMax
+	  value CDATA #REQUIRED
+	  qcflag CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT surfaceTempMin EMPTY>
+<!ATTLIST surfaceTempMin
+	  value CDATA #REQUIRED
+	  qcflag CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT rhAvg EMPTY>
+<!ATTLIST rhAvg
+	  value CDATA #REQUIRED
+	  qcflag CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT soilMoist5cm EMPTY>
+<!ATTLIST soilMoist5cm
+	  value CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT soilMoist10cm EMPTY>
+<!ATTLIST soilMoist10cm
+	  value CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT soilMoist25cm EMPTY>
+<!ATTLIST soilMoist25cm
+	  value CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT soilMoist50cm EMPTY>
+<!ATTLIST soilMoist50cm
+	  value CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT soilMoist100cm EMPTY>
+<!ATTLIST soilMoist100cm
+	  value CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT soilTemp5cm EMPTY>
+<!ATTLIST soilTemp5cm
+	  value CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT soilTemp10cm EMPTY>
+<!ATTLIST soilTemp10cm
+	  value CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT soilTemp25cm EMPTY>
+<!ATTLIST soilTemp25cm
+	  value CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT soilTemp50cm EMPTY>
+<!ATTLIST soilTemp50cm
+	  value CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>
+<!ELEMENT soilTemp100cm EMPTY>
+<!ATTLIST soilTemp100cm
+	  value CDATA #REQUIRED
+	  error CDATA #IMPLIED
+>

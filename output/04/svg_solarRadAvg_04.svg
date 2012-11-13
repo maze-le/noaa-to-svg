@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     id="barrowsvg0.1"
+     version="1.1"
+     width="700"
+     height="256">
+   <defs id="defines_barrowsvg0.1"/>
+   <svg:path style="fill:#fafaff;"
+             d="M 0.0,0.0 L 700.0,0.0 700.0,256.0 0.0,256.0 Z"
+             id="bg"/>
+   <svg:path style="fill:#eaeafc;"
+             d="M 50,12 L 685,12 685,246 50,246 Z"
+             id="bg2"/>
+   <svg:path style="fill:#0d0d0d;stroke:#0d0d0d;"
+             d="M 50,246.0 L 50,12"
+             id="coordypos"/>
+   <svg:path style="fill:#0d0d0d;stroke:#0d0d0d;"
+             d="M 50,7 L 55,14 50,12 45,14 Z"
+             id="arrowypos"/>
+   <svg:path style="fill:#0d0d0d;stroke:#0d0d0d;"
+             d="M 50,246.0 L 50,246"
+             id="coordyneg"/>
+   <svg:path style="fill:#0d0d0d;stroke:#0d0d0d;"
+             d="M 50,241 L 55,248 50,246 45,248 Z"
+             transform="rotate(180 50 246)"
+             id="arrowyneg"/>
+   <svg:path style="fill:#0d0d0d;stroke:#0d0d0d;"
+             d="M 50,246.0 L 685,246.0"
+             id="coordxpos"/>
+   <svg:path style="fill:#0d0d0d;stroke:#0d0d0d;"
+             d="M 685,241 L 690,248 685,246.0 680,248 Z"
+             transform="rotate(90 685,246.0)"
+             id="arrowxpos"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="77"
+             y="256">3.04.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 90,246 L 90,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="117"
+             y="256">5.04.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 130,246 L 130,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="157"
+             y="256">7.04.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 170,246 L 170,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="197"
+             y="256">9.04.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 210,246 L 210,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="237"
+             y="256">11.04.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 250,246 L 250,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="277"
+             y="256">13.04.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 290,246 L 290,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="317"
+             y="256">15.04.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 330,246 L 330,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="357"
+             y="256">17.04.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 370,246 L 370,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="397"
+             y="256">19.04.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 410,246 L 410,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="437"
+             y="256">21.04.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 450,246 L 450,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="477"
+             y="256">23.04.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 490,246 L 490,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="517"
+             y="256">25.04.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 530,246 L 530,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="557"
+             y="256">27.04.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 570,246 L 570,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="597"
+             y="256">29.04.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 610,246 L 610,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="637"
+             y="256">31.04.</svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 650,246 L 650,12"/>
+   <svg:text style="font-size:8pt;font-face: monospace, Courier;font-color:#000000;"
+             x="5"
+             y="246.0">0 W/m<svg:tspan style="margin-top:.25em;font-size: .85em;baseline-shift: super;">2</svg:tspan>
+   </svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 45,246.0 L 685,246.0"/>
+   <svg:text style="font-size:7.5pt;font-face: monospace, Courier;font-color:#000000;"
+             x="5"
+             y="206">80W/m<svg:tspan style="font-size: .75em;baseline-shift: super;">2</svg:tspan>
+   </svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 45,206 L 685,206"/>
+   <svg:text style="font-size:7.5pt;font-face: monospace, Courier;font-color:#000000;"
+             x="5"
+             y="166">160W/m<svg:tspan style="font-size: .75em;baseline-shift: super;">2</svg:tspan>
+   </svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 45,166 L 685,166"/>
+   <svg:text style="font-size:7.5pt;font-face: monospace, Courier;font-color:#000000;"
+             x="5"
+             y="126">240W/m<svg:tspan style="font-size: .75em;baseline-shift: super;">2</svg:tspan>
+   </svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 45,126 L 685,126"/>
+   <svg:text style="font-size:7.5pt;font-face: monospace, Courier;font-color:#000000;"
+             x="5"
+             y="86">320W/m<svg:tspan style="font-size: .75em;baseline-shift: super;">2</svg:tspan>
+   </svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 45,86 L 685,86"/>
+   <svg:text style="font-size:7.5pt;font-face: monospace, Courier;font-color:#000000;"
+             x="5"
+             y="46">400W/m<svg:tspan style="font-size: .75em;baseline-shift: super;">2</svg:tspan>
+   </svg:text>
+   <svg:path style="stroke-width: 0.5; stroke:#7c7c7c; stroke-dasharray:3.2;"
+             d="M 45,46 L 685,46"/>
+   <svg:path style="stroke:#fc7c0a;fill:none;"
+             d="M 50,181.4375  L 50,181.4375 L 70,177.83333333333331 L 90,182.10416666666666 L 110,182.89583333333334 L 130,200.95833333333334 L 150,171.54166666666669 L 170,172.72916666666669 L 190,181.875 L 210,175.75 L 230,167.66666666666669 L 250,164.5 L 270,169.60416666666669 L 290,155.41666666666669 L 310,157.77083333333331 L 330,158 L 350,172.85416666666669 L 370,158.875 L 390,168.04166666666669 L 410,192.27083333333334 L 430,145.33333333333331 L 450,174 L 470,153.39583333333331 L 490,135.08333333333331 L 510,133.45833333333331 L 530,136.75 L 550,164.20833333333331 L 570,132.75 L 590,171.75 L 610,121 L 630,125.20833333333333"
+             id="curveTempCurrent"/>
+</svg>

@@ -1,0 +1,25 @@
+
+body {background-color:#fafaff;}
+div.diagram {margin-bottom:20px;}
+div.diagram div.caption {vertical-align:top; position:relative; width:18em;display:inline-block; margin-bottom:2em; }
+div.diagram div.image {display:inline-block;}
+
+div.diagram div.caption p.description {font-size:0.9em; font-style:italic;}
+div.diagram div.caption p.wert {font-size:0.8em;padding-left:3.6em; text-indent:-3.05em;}
+
+table.extrema {border-collapse: collapse;margin:0.5em;
+	       font-size:0.8em; margin-left:0.55em;}
+
+table.extrema tr td {padding: .5em .5em .5em .5em;
+		     vertical-align: middle;}
+table.extrema tr th {border-bottom: 1px solid #000000;
+		     border-top: 1px solid #000000;
+		     padding: 10px;
+		     vertical-align: middle;}
+
+table.extrema td.li {border-right: 1px solid #000000;}
+table.extrema td.li span.sum {font-face:serif, Times; font-size:1.5em;}
+
+
+
+
